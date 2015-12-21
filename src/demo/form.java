@@ -58,8 +58,6 @@ public class form {
 			}
 			
 			driver.findElements(By.className("btn_submit")).get(0).click();
-
-			//wait.until(titleContains("株式会社シーアップ　お申し込み"));
 			try {
 				Thread.sleep(1000);
 			} catch (InterruptedException e) {
