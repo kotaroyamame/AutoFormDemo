@@ -1,4 +1,4 @@
-package demo;
+package autoform;
 
 import static org.openqa.selenium.support.ui.ExpectedConditions.titleContains;
 

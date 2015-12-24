@@ -1,4 +1,4 @@
-package demo;
+package autoform;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
