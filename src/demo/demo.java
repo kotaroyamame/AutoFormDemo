@@ -15,10 +15,6 @@ public class demo {
 			System.out.println(b);
 			}
 		}
-//		System.out.println(list_[0][5]);
-//		System.out.println(list_[1][5]);
-//		System.out.println(list_[2][5]);
-//		System.out.println(list_[3][5]);
 		form.input(list_);
 
 //		ArrayList<String> teststring=new ArrayList<>();

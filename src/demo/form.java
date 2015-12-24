@@ -37,13 +37,11 @@ public class form {
 //		WebElement[] element = new WebElement[size];
 		
 		for(int i=0;i<list.length;i++){
-			wait.until(titleContains("動作テスト"));
+			wait.until(titleContains("動作テスト"));//ページが対象のタイトルになるまで待機
 			this.textFormClear(driver);
-			//pw
+
 			driver.findElements(By.className("hovertip")).get(0).sendKeys(list[i][0]);
-			//pw確認
 			driver.findElements(By.className("hovertip")).get(1).sendKeys(list[i][1]);
-			//個人法人
 			
 			if(list[i][2].equals("1")){
 				driver.findElements(By.className("hovertip")).get(3).click();
